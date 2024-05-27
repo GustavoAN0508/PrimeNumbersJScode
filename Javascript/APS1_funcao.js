@@ -20,14 +20,13 @@ function isPrime(num){
 
 function findLargestPrimes(num){
   const primos = [];
-  if(num>=2){
-    primos.push(2);
-  }
-  for(let i=3; i <= num; i+=2){
-    if (isPrime(i) == true){
-      primos.push(i);   
-    }
-  }
+  let inicio = 2;
+   while (primos.length < num) { //coloquei essa .length para que enquanto os elementos não chegassem a 10 continuasse rodando o código
+     if (isPrime(inicio)) {
+        primos.push(inicio); //.push foi para adicionar números partindo do 2
+        }
+        inicio++;
+   }
   return primos;
 }
 
