@@ -40,4 +40,4 @@ else{
   alert(num + " não é numero primo.");
 }
 
-alert("Os números primos correspondestes são: " + findLargestPrimes(num))
+alert("Os números primos correspondestes são: " + findLargestPrimes(num));
