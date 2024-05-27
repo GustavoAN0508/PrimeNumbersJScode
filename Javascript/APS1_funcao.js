@@ -10,7 +10,7 @@ function isPrime(num){
     return false;
   }
   for(let i=num-1; i>=2; i--){
-      let resto = num % i
+      let resto = num % i;
       if (resto == 0){
         return false; 
       }
