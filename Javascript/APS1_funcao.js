@@ -21,11 +21,11 @@ function isPrime(num){
 function findLargestPrimes(num){
   const primos = [];
   let inicio = 2;
-   while (primos.length < num) { //coloquei essa .length para que enquanto os elementos não chegassem a 10 continuasse rodando o código
-     if (isPrime(inicio)) {
+  while (primos.length < num) { //coloquei essa .length para que enquanto os elementos não chegassem a 10 continuasse rodando o código
+      if (isPrime(inicio)) {
         primos.push(inicio); //.push foi para adicionar números partindo do 2
         }
-        inicio++;
+      inicio++;
    }
   return primos;
 }
