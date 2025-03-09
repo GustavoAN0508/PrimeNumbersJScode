@@ -1,9 +1,4 @@
-/**
-  Trabalho da disciplina de Programação em JavaScript
-  Turma:963R
-  Aluno:Luiz Gustavo Arruda Nascimento
-  Matricula:2024100924
-*/
+
 
 function isPrime(num){
   if(num<2){
